@@ -1,0 +1,88 @@
+git remote -v
+
+git remote set-url origin git://github.com/YourDirectory/YourProject.git
+
+git remote set-url origin https_link_to_repository
+
+git push -u origin master
+
+
+
+1- generate ssh key in linux:
+
+# ssh-keygen -t rsa -C x@x.com
+ssh-keygen
+2- evaluate
+eval "$(ssh-agent -s)"
+3- 
+touch ~/.ssh/config
+
+4-   rsa is justr a name
+vim ~/.ssh/id_rsa.pub
+
+
+5- copy the content in the github ssh key
+
+
+6- 
+ssh -T git@github.com
+
+ssh-add ~/.ssh/ed25519
+
+sshagent
+
+
+------------------------------------------------------
+git clone git@github.com:payman-ap/wsl2_drchunk.git
+
+
+git add .
+# NOTE only files 
+
+
+git commit -m "the commit message"
+
+
+git push -u origin master
+
+# -u : upstream
+
+
+
+-------------------------------- FINAL CONCLUDED STEPS ---------------------------
+1- make an ssh connection to github (while the http works not well after 2021 because of security reasons)
+above steps
+
+2- 
+git clone repository.git
+
+3-
+git add file.py file2.cpp, ...
+
+4- git commit -m "message"
+
+5 - git push
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
