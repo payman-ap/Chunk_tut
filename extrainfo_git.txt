@@ -54,6 +54,7 @@ git push -u origin master
 above steps
 
 2- 
+git init
 git clone repository.git
 
 3-
@@ -62,6 +63,16 @@ git add file.py file2.cpp, ...
 4- git commit -m "message"
 
 5 - git push
+
+
+-------------------------
+
+
+git reset --soft HEAD~ # reset to the last commit
+git stash              # stash all the changes in the working tree 
+git push               # push changes 
+git stash pop          # get your changes back 
+
 
 
 
